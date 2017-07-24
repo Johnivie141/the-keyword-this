@@ -49,6 +49,7 @@ describe('practice', function () {
     })
     describe('getMyUser', function () {
         it('should return the myUser username', function () {
+
             expect(userName).toEqual(myUser.username);
         })
     })
